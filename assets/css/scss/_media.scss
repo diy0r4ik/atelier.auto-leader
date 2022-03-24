@@ -1,0 +1,85 @@
+
+@media(max-width: 500px){
+    .nav__list{
+        display: none;
+    }
+ 
+    .burger{
+        display: block;
+    }
+    .nav__right{
+        display: none;
+    }
+    .main__title{
+        width: 474px;
+        height: 160px;
+        font-size: 48px;
+        margin: 0 auto;
+    }
+    .main__btn{
+        margin-top: 100px;
+    }
+    .container{
+        width: auto;
+    }
+    .cars__wrapper{
+        grid-template-columns: none;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .services__cards{
+        grid-template-columns: none;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .instagram__cards{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        display: grid;
+        flex-direction: column;
+    }
+    .Subscribe__subtitle{
+        width: 278px;
+        height: 140px;
+        font-size: 35px;
+    }
+    .Subscribe__box{
+        width: 300px;
+    }
+    
+    .Subscribe__info{
+        width: 259px;
+    }
+    .Subscribe__text {
+        padding-top: 5px;
+    }
+    .Subscribe {
+        height: 764px;
+        padding: 10px;
+    }
+    .Subscribe__title {
+        width: 287px;
+    }
+    .instagram__card1--img{
+        display: none;
+    }
+    .instagram__card2--img{
+        display: none;
+    }
+    .instagram__card3--img{
+        display: none;
+    }
+    .instagram__card4--img{
+        display: none;
+    }
+
+    .carousel-item{
+        padding: 120px 10px 120px;
+    }
+    // .cars__modal{
+    //     display: block;
+    // }
+    
+
+}
